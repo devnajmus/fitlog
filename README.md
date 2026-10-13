@@ -20,9 +20,9 @@ npm run dev
 Open http://localhost:3000. Run `npm run build` for production.
 
 ## Deployment
-Next.js static export generates `out/`, including all twelve workout routes and `/my-plan/`. Deploy that folder to a static host or import this repository in Vercel. Direct navigation and reloads are supported by generated HTML; unknown routes use 404.html.
+Next.js static export generates `out/`, including all twelve workout routes and `/my-plan/`. The verified production build is deployed to Vercel using Drop to Deploy. For updates, upload a fresh export or connect this GitHub repository to Vercel for automatic deployments. Direct navigation and reloads are supported by generated HTML; unknown routes use 404.html.
 
-Live link: pending verified deployment.
+Live link: https://fitlog-delta-hazel.vercel.app/
 GitHub link: https://github.com/devnajmus/fitlog
 
 ## Data and credits
@@ -30,4 +30,5 @@ API: https://api.abcz.workers.dev/api/fitlog
 Alternate: https://api.api-store.workers.dev/api/fitlog
 Reference design files, logo and banner: ProgrammingHero1/B14-A6-Fit-Log.
 Data stays in the current browser/device. If both APIs fail, an explicit notice accompanies the bundled workout snapshot.
+
 
